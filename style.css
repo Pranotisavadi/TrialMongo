@@ -1,0 +1,414 @@
+
+h2{
+    text-align: center
+} 
+#landing-page-navigation1{
+background-color: #660527;
+
+
+}
+
+.grid1{
+    
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;  
+}
+.darkred-background {
+    background-color:#660527;
+}     
+
+.darkblue-background {
+    background-color: #08122B;
+}
+.orange-background {
+    background-color: #C8651B;
+}
+ 
+.black-background{
+ background-color: black;
+}
+
+.text-black{
+    color : black
+} 
+.text-orange{
+   color : #C8651B
+}
+
+.text-white{
+   color:white;
+}
+.font1{
+   font-size: 80px;
+}
+.column{
+column-count: 4;
+column-gap: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.button {
+width:200px;
+border: none;
+padding: 12px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin : 15px 2px;
+border-radius: 12px;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif;
+}
+.button1 {
+    width:200px;
+    border: none;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin : 15px 2px;
+    border-radius: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+div.scroll {
+    height: 200px;
+    overflow: auto;
+}
+
+.bullet {
+list-style-type: none; 
+}
+.row {
+margin-top: 25px;
+}
+.button:active {
+box-shadow: 0 5px white;
+transform: translateY(4px);
+}
+
+.thirsty{
+margin: 200px 2px;
+}
+
+.margin{
+ padding-top: 30px;
+} 
+div.scroll {
+height: 400px;
+overflow: auto;
+
+}
+
+
+
+p{
+font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+font-family: 'Passion One', cursive;
+font-size: 80px;
+color: white;
+text-align: center;
+}
+
+.landing-page-grid-class{
+display: grid;
+grid-template-rows: 0.5fr 0.5fr 1fr ;
+height: auto;
+
+}
+
+body{
+
+background-color: #08122B;
+}
+
+#landing-page-container-01{
+display: grid;
+background-color:#C8651B;
+grid-template-columns: 1fr;
+margin-top: 0;
+
+
+}
+
+#landing-page-container-01 p{
+color: white; 
+
+}
+
+#landing-page-navigation{
+background-color: #C8651B;
+
+
+}
+
+#landing-page-navigation a{
+color: white; 
+}
+
+#nav-title{
+font-family: 'Anton', sans-serif; 
+
+
+}
+
+
+
+
+#main-header{
+
+text-align: center;
+
+
+}
+
+
+#main-title{
+padding-top: 90px;
+font-weight: 300;
+
+}
+
+#main-title a{
+text-decoration: none;
+color: black;
+
+}
+
+
+#main-title button:hover{
+background-color: #08122B; 
+
+
+}
+
+#main-title a:hover{
+text-decoration: none;
+color: white;
+
+
+
+}
+
+
+
+
+#landing-page-about-us{
+background-color: #08122B;
+margin-top: 0;   
+}
+
+
+
+#who-we-are-container{
+display: grid; 
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+place-items: end center;
+
+}
+#who-we-are{
+margin-left: 12px; 
+grid-row:2/3;
+}
+
+
+#who-we-are h2{
+font-family: 'Anton', sans-serif; 
+font-size: 60px;
+color: #C8651B;
+text-align: left;
+
+}
+
+#who-we-are p{
+
+font-size: 20px;
+font-weight: 400;
+color: #C8651B;
+}
+
+#meet-the-team{
+display: grid; 
+grid-template-columns: 1;
+grid-template-rows: auto auto auto auto auto; 
+
+}
+
+
+#meet-the-team img{
+border-radius: 50%;
+height: auto;
+width: 100%;
+
+
+}
+
+#meet-the-team .row{
+margin-top: 25px;
+padding-top: 20px;
+padding-bottom: 20px;
+align-items: center;
+
+
+}
+
+
+#team-header{
+background-color: #F9EFEE;
+color: #08122B;
+margin: auto;
+width: 50%;
+padding: 10px;
+border-radius: 7px;
+margin-top: 10px;
+margin-bottom: 10px;;
+padding: 0;
+}
+
+#team-header h3{
+margin: auto;
+width: 90%;
+padding: 10px;
+text-align: center;
+border-radius: 2px;
+}
+
+
+
+.icons{
+background-color: #660527;
+border-radius: 5px; 
+height: auto;
+margin: 10px; 
+color: #F9EFEE;
+
+
+}
+
+
+#landing-page-contact-us{
+background-color: #660527;
+margin-top:0;
+}
+
+#contact-us-image{
+margin-left: 0;
+padding: 0;
+position: relative; 
+
+}
+
+#contact-us-image img{
+max-width: 100%;
+max-height: auto;
+border-radius: 2px;
+}
+
+#contact-us-image p{
+Position: relative;
+color: white;
+position: absolute;
+bottom: 10px;
+left: 5px;
+}
+
+#contact-us-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contact-us-section p{
+   
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: white; 
+    font-size: 20px;
+}
+
+#contact-us-section a{
+text-decoration: none;
+font-weight: 300;
+font-family: 'Open Sans', sans-serif;
+color: white; 
+}
+
+#contact-us-section a:hover{
+
+color: yellow; 
+}
+
+#contact-us-section h2{
+font-family: 'Anton', sans-serif; 
+font-weight: 400; 
+color: white;
+font-size: 60px;
+
+}
+
+
+#contact-us-section h3{
+font-family: 'Open Sans', sans-serif; 
+    font-weight: 400; 
+    color: #C8651B;
+    font-size: 30px;
+
+}
+
+.book-cards{
+background-color: #C8651B;
+justify-content: center;
+align-items: center;
+padding-top: 20px;
+}
+
+.btn-book{
+background-color: #08122B;
+border:none; 
+}
+
+#drink-selector-hidden{
+display: none;
+
+}
+
+#head2{
+color:white;
+}
+
+.nav-selection{
+background-color: #660527;
+}
+
+li button:hover{
+background-color: #C8651B;
+}
+
+.button-main:hover{
+background-color: black;
+}
